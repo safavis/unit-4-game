@@ -1,0 +1,179 @@
+.container{
+    width: 1500px;
+    height: 1100px;
+    background-image: url("../images/starwars_background.png");
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 4fr 1fr 4fr 1fr 4fr 2fr 1fr 4fr 1fr;
+}
+.header{
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.characters{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.obiwan{
+    width: 250px;
+    height: 200px;
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 1fr
+}
+.obiwan_img{
+    width: 200px;
+    height: 150px;
+    margin-left :40px;
+    border: 7px solid white;
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+}
+
+.obiwan_score{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    text-align: center;
+    margin-left :40px;
+
+}
+
+.luke{
+    grid-row: 1 /span 1;
+    grid-column: 2 /span 1;
+    width: 250px;
+    height: 200px;  
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 1fr;
+}
+.luke_img{
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    width: 200px;
+    height: 150px;
+    margin-left :40px;
+    border: 7px solid white;
+}
+
+.luke_score{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    text-align: center;
+    margin-left :40px;
+
+}
+
+.sidious{
+    grid-row: 1 /span 1;
+    grid-column: 3 /span 1;
+    width: 250px;
+    height: 200px; 
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 1fr; 
+}
+.sidious_img{
+    width: 200px;
+    height: 150px;
+    margin-left :40px;
+    border: 7px solid white;
+    grid-column: 1 /span 1;
+    grid-row: 1 /span 1;
+}
+
+.sidious_score{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    text-align: center;
+    margin-left :40px;
+
+}
+
+.maul_img{
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    width: 200px;
+    height: 150px;
+    margin-left :40px;
+    border: 7px solid white;
+}
+.maul{
+    width: 250px;
+    height: 200px;  
+    grid-row: 1 /span 1;
+    grid-column: 4 /span 1;
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 1fr; 
+}
+
+
+.maul_score{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    text-align: center;
+    margin-left :40px;
+
+}
+.text_bar{
+    color: white;
+    font-size: 20px;
+}
+.your_char_text{
+    grid-row: 3 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+}
+.your_char{
+    grid-row: 4 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.avail_enemies_text{
+    grid-row: 5 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;   
+}
+.avail_enemies{
+    grid-row: 6 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.fight_sec{
+    grid-row: 7 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+}
+.defender_text{
+    grid-row: 8 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;      
+}
+.defender{
+    grid-row: 9 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+    
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.report{
+    grid-row: 10 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 40px;
+}
